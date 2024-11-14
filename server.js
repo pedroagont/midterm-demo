@@ -48,6 +48,10 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/pedro", (req, res) => {
+  res.send("Hi this is Pedro! 👨🏻‍🏫");
+});
+
 app.get("/angelo", (req, res) => {
   res.send("Hi from Angelo! 👼🏻");
 });
