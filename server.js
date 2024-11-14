@@ -52,6 +52,10 @@ app.get("/pedro", (req, res) => {
   res.send("Hi this is Pedro! 👨🏻‍🏫");
 });
 
+app.get("/angelo", (req, res) => {
+  res.send("Hi from Angelo! 👼🏻");
+});
+
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });
